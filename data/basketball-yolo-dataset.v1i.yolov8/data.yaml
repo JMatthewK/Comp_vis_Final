@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['ball', 'hoop', 'player']
+
+roboflow:
+  workspace: basketball-yolo-dataset
+  project: basketball-yolo-dataset
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/basketball-yolo-dataset/basketball-yolo-dataset/dataset/1
