@@ -3,7 +3,7 @@ val: ../valid/images
 test: ../test/images
 
 nc: 3
-names: ['ball', 'hoop', 'player']
+names: ['Basketball', 'Basketball Rim', 'Player']
 
 roboflow:
   workspace: basketball-yolo-dataset
