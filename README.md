@@ -13,3 +13,5 @@ Using this for one possible dataset. It's a pretrained basketball dataset.
 5. Determine if it goes in the hoop and update score
 
 6. Talk about errors, false positives and ideas that might help
+
+CONSIDERING TRYIHNG A Kalman filter to see if that improves, seperate notebook
