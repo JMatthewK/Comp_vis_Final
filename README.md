@@ -1,17 +1,45 @@
-https://universe.roboflow.com/basketball-yolo-dataset/basketball-yolo-dataset/dataset/1?utm_source=copilot.com
+# Basketball Shot Detection & Tracking
+A lightweight computer-vision system that automatically detects basketball shot attempts and makes using a single video input. Built using a custom-trained YOLOv8 model, trajectory interpolation, and a state-machine–based logic pipeline.
 
-Using this for one possible dataset. It's a pretrained basketball dataset.
+---
 
-1. I imported yolov8 and trained it on a dataset that i made with about 180 basketball images, and then trained it with an opens source dataset with around 300.
+## Features
+- Detects basketball and hoop in real time using YOLOv8  
+- Tracks ball trajectory using polynomial interpolation  
+- Displays live stats
+- Visualizes bounding boxes, rim band, trajectory curve, and state  
 
-2. I had it detect the players, ball, and basket but for the purposes of this final i only keep the ball and basket
+---
 
-3. Drew a box at the top of the rim so i can use it for determing if the ball went in the hoop or not.
+## Project Structure
+project/
+│── data/
+│   ├── videos/
+│   └── Basketball-detection-for-COMPVISFINAL/
+│
+│── models/
+│   └── yolov8n.pt
+│
+│── notebooks/
+│   └── 01_model_training.ipynb
+|   └── ...
+│
+│── output/
+│   └── Point_counting_results.mp4
+│
+└── README.md
 
-4. Created an interpolating polynomial to make a line using points the ball was at to see if the ball goes in the hoop
+---
 
-5. Determine if it goes in the hoop and update score
+## Getting Started
 
-6. Talk about errors, false positives and ideas that might help
-
-CONSIDERING TRYIHNG A Kalman filter to see if that improves, seperate notebook
+### **1. Clone the Repository**
+```bash
+git clone https://github.com/YourUsername/Basketball_Shots_Tracker.git
+cd Basketball_Shots_Tracker
+```
+### **2. Install Dependencies**
+```bash
+pip install -r requirements.txt
+```
+### **3. Run Notebooks with Videos**
