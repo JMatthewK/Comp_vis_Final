@@ -12,6 +12,7 @@ A lightweight computer-vision system that automatically detects basketball shot 
 ---
 
 ## Project Structure
+```
 project/
 ├── data/
 │   ├── videos/
@@ -28,7 +29,7 @@ project/
 │   └── Point_counting_results.mp4
 │
 └── README.md
-
+```
 
 ---
 
