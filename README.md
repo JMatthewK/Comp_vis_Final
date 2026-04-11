@@ -13,21 +13,22 @@ A lightweight computer-vision system that automatically detects basketball shot 
 
 ## Project Structure
 project/
-│── data/
+├── data/
 │   ├── videos/
 │   └── Basketball-detection-for-COMPVISFINAL/
 │
-│── models/
+├── models/
 │   └── yolov8n.pt
 │
-│── notebooks/
-│   └── 01_model_training.ipynb
-|   └── ...
+├── notebooks/
+│   ├── 01_model_training.ipynb
+│   └── ...
 │
-│── output/
+├── output/
 │   └── Point_counting_results.mp4
 │
 └── README.md
+
 
 ---
 
