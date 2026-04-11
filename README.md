@@ -37,7 +37,7 @@ project/
 
 ### **1. Clone the Repository**
 ```bash
-git clone https://github.com/YourUsername/Basketball_Shots_Tracker.git](https://github.com/JMatthewK/Basketball_Shots_Tracker.git
+git clone https://github.com/JMatthewK/Basketball_Shots_Tracker.git
 cd Basketball_Shots_Tracker
 ```
 ### **2. Install Dependencies**
